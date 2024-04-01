@@ -3,8 +3,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = xylo:CreateWindow({
-    Title = "xylo " .. xylo.Version,
-    SubTitle = "by 6xylo on discord",
+    Title = "Xylo.cc " .. xylo.Version,
+    SubTitle = "By 6Xylo on discord☑️",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -22,9 +22,9 @@ local Options = xylo.Options
 
 do
     xylo:Notify({
-        Title = "6xylo.cc",
-        Content = "6xylo.cc",
-        SubContent = "6xylo on discord", -- Optional
+        Title = "6Xylo.cc",
+        Content = "6Xylo.cc",
+        SubContent = "6Xylo on discord", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
 
